@@ -2,7 +2,7 @@ URL: http://localhost:8080/graphql
 
 Examples
 
-##Query
+<h2>Query</h2>
 
 {
   recentPosts(count:3){
@@ -12,7 +12,7 @@ Examples
   }
 }
 
-##Mutation
+<h2>Mutation</h2>
 
 mutation {
    writePost(title:"test3",text:"test",category:"test",author:"test") {
